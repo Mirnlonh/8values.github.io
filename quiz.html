@@ -63,7 +63,7 @@ stats"></a></div></noscript>
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Domanda" + (qn + 1) + " di " + (questions.length);
+        document.getElementById("question-number").innerHTML = "Domanda " + (qn + 1) + " di " + (questions.length);
         if (prev_answer == null) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
